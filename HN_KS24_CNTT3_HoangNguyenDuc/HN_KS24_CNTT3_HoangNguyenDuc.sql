@@ -52,4 +52,4 @@ where students_id=2 and Course_id=3;
 select full_name,email,phone_number from students;
 
 delete from Course where Course_id=101
-/* do khi khỏi tạo bảng nó lưu course_id vào bảng tạm nên vẫn hiện thông báo xóa thành công*/
+/* do khi khỏi tạo bảng nó lưu course_id vào bảng tạm và ko có liên kết gì liên quan đến Course_id này nên vẫn hiện thông báo xóa thành */
